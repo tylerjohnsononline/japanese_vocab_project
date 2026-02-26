@@ -2,7 +2,7 @@
 import random as r
 import numpy as np
 import pandas as pd
-
+ 
 """expect to use
 pandas to read csv data
 
