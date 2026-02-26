@@ -1,5 +1,4 @@
 
-
 import numpy as np
 import pandas as pd
 
@@ -14,5 +13,6 @@ print(df)
 
 
 save_location = "vocab_data\\japanese_vocabulary_words.csv"
-df.to_csv(save_location)
-# data = pd.read_csv("")
+df.to_csv(save_location, index=False)
+
+data = pd.read_csv(save_location)
