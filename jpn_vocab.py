@@ -2,8 +2,18 @@
 import random as r
 import numpy as np
 import pandas as pd
-import io
 
+"""expect to use
+pandas to read csv data
+
+tkinter to display a gui
+buttons, label
+
+data in 
+romanji, japanese characters, and english words
+
+random for getting a random japanese word to test on
+"""
 
 class User(): 
   def __init__(self):
