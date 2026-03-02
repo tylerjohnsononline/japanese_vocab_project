@@ -22,7 +22,7 @@ def make_function_array_into_buttons(m, arrays, texts =False,
                  command = arrays[horizontal_index][index]
                ) 
          buttons[horizontal_index][index].grid(row = index, column =horizontal_index) 
-
+    return buttons
 
 
 def exampleprinter():
