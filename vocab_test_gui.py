@@ -60,6 +60,17 @@ class WordManager():
     english_word.set(f"{english}")
   def show_romanji(self):
     pass
+  def get_no_show(self):
+    df = self.data
+    # max_location = df.index - 1
+    # df.Index.size
+    # max_location = 0
+    max_location = df.index.size -1
+    location = r.randint(0, max_location)
+    all_word_data = df.loc[location]
+    self.active_word_location = location
+    # string_variable.set(f"{all_word_data}")
+
 
 
 def clear_label(the_label = LB):
@@ -88,11 +99,11 @@ random for getting a random japanese word to test on
 
 
 def main():
-  vocab_functions = [[VocabManager.get_word, clear_label],
+  vocab_functions = [[VocabManager.get_no_show,VocabManager.get_word, clear_label],
           [VocabManager.show_japanese],[VocabManager.show_english],[VocabManager.show_romanji]
   # , new_word  
                       ]
-  texts = [["example", "clear",], # answer
+  texts = [["new\nword", "example", "clear",], # answer
            ["show\njapanese\nnew"],["show\nenglish"],["show\nphonetic"],
   #  "new word"
   ]
