@@ -6,7 +6,7 @@ This will be a simple program to do vocabulary practice from the command line.
 ### how to use
 step 1: download this repository
 
-step 2: run the following commands: 
+step 2: run the following commands from the cmd(command line: 
 
 ```
 python -m venv venv_spot
