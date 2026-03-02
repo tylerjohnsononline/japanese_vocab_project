@@ -24,10 +24,10 @@ english_word.set("")
 english_word_button = tk.Label(root, textvariable = english_word)
 english_word_button.grid(row=1, column=2)
 
-# pronunciation = tk.StringVar(root)
-# pronunciation.set("")
-# LB = tk.Label(root, textvariable = pronunciation)
-# LB.grid(row=1, column=3, )
+pronunciation = tk.StringVar(root)
+pronunciation.set("")
+romanji_button = tk.Label(root, textvariable = pronunciation)
+romanji_button.grid(row=1, column=3, )
 
 
 class WordManager():
@@ -59,7 +59,9 @@ class WordManager():
     english = df.loc[self.active_word_location]["english"]
     english_word.set(f"{english}")
   def show_romanji(self):
-    pass
+    df  = self.data
+    romanji = df.loc[self.active_word_location]["pronunciation"]
+    pronunciation.set(f"{romanji}")
   def get_no_show(self):
     df = self.data
     # max_location = df.index - 1
@@ -111,6 +113,7 @@ def main():
   for outer_index, xx in enumerate(texts):
     for inner_index, __  in enumerate(xx):
       print(btns[outer_index][inner_index])
+      btns[outer_index][inner_index].configure(width=10)
       btns[outer_index][inner_index].grid(row=inner_index,column=outer_index)
       # btns[outer_index][inner_index].configure(row=inner_index,column=outer_index)
   root.mainloop()
