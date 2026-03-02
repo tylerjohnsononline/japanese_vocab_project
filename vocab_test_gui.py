@@ -19,15 +19,15 @@ japanese_word_displayable.set("")
 japanese_label = tk.Label(root, textvariable = japanese_word_displayable)
 japanese_label.grid(row=1, column=1, )
 
-# string_variable = tk.StringVar(root)
-# string_variable.set("")
-# LB = tk.Label(root, textvariable = string_variable)
-# LB.grid(row=10, column=0, columnspan=3)
+english_word = tk.StringVar(root)
+english_word.set("")
+english_word_button = tk.Label(root, textvariable = english_word)
+english_word_button.grid(row=1, column=2)
 
-# string_variable = tk.StringVar(root)
-# string_variable.set("")
-# LB = tk.Label(root, textvariable = string_variable)
-# LB.grid(row=10, column=0, columnspan=3)
+# pronunciation = tk.StringVar(root)
+# pronunciation.set("")
+# LB = tk.Label(root, textvariable = pronunciation)
+# LB.grid(row=1, column=3, )
 
 
 class WordManager():
@@ -55,7 +55,9 @@ class WordManager():
     japanese_word_displayable.set(f"{japanese_word}")
     # japanese_label.configure(text = japanese_word_displayable)
   def show_english(self):
-    pass
+    df  = self.data
+    english = df.loc[self.active_word_location]["english"]
+    english_word.set(f"{english}")
   def show_romanji(self):
     pass
 
