@@ -26,4 +26,5 @@ step 5: run the vocab_test_gui.py file
 python vocab_test_gui.py
 ```
 step 6: use the window that pops up to test your knowledge of some japanese vocabulary
-
+Click new word then show japanese new to see the word in japanese, click show english to show the english word.
+To get a new word click new word, then show japanese new, and again show english to reveal the answer.
