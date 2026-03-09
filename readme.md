@@ -4,6 +4,8 @@ I wanted to be able to practice vocabulary words.
 This will be a simple program to do vocabulary practice from the command line. 
 
 ### how to use
+requires python, how to install Python:https://www.python.org/downloads/
+
 step 1: download this repository
 
 step 2: run the following commands from the cmd(command line: 
