@@ -1,3 +1,4 @@
+![working](https://github.com/tylerjohnsononline/japanese_vocab_project/blob/main/images/japanese_vocab_project_show_instructons_working.png)
 ### Why a vocabulary project
 I wanted to be able to practice vocabulary words.
 
