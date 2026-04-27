@@ -1,7 +1,7 @@
 ### Why a vocabulary project
 I wanted to be able to practice vocabulary words.
 
-This will be a simple program to do vocabulary practice from the command line. 
+This is a simple program for japanese vocabulary practice from the command line. 
 
 ### how to use
 requires python, how to install Python:https://www.python.org/downloads/
