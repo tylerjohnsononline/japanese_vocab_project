@@ -1,9 +1,10 @@
-on startup:
+# Images
+### On startup:
 
 ![](https://github.com/tylerjohnsononline/japanese_vocab_project/blob/main/images/on%20startup.png)
 
 
-after clicking new word and example:
+### After clicking new word and example:
 
 ![](https://github.com/tylerjohnsononline/japanese_vocab_project/blob/main/images/click%20new%20word%20and%20example.png)
 
