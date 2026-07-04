@@ -1,5 +1,5 @@
-![https://github.com/tylerjohnsononline/japanese_vocab_project/blob/main/images/click%20new%20word%20and%20example.png]
-
+![](https://github.com/tylerjohnsononline/japanese_vocab_project/blob/main/images/click%20new%20word%20and%20example.png)
+![](https://github.com/tylerjohnsononline/japanese_vocab_project/blob/main/images/on%20startup.png)
 
 ### Why a vocabulary project
 I wanted to be able to practice vocabulary words.
