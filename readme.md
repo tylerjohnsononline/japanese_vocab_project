@@ -1,8 +1,11 @@
-![working](https://github.com/tylerjohnsononline/japanese_vocab_project/blob/main/images/japanese_vocab_project_show_instructons_working.png)
+images from outdated variant
+
+
+
 ### Why a vocabulary project
 I wanted to be able to practice vocabulary words.
 
-This is a simple program for japanese vocabulary practice from the command line. 
+This is a simple program for vocabulary practice that can be run from the command line, making a window.
 
 ### how to use
 requires python, how to install Python:https://www.python.org/downloads/
