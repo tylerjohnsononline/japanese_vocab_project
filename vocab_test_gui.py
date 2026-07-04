@@ -11,6 +11,7 @@ import tkinter as tk
 from tkinter import filedialog
 
 root = tk.Tk()
+root.title("Vocabulary Practice Program")
 string_variable = tk.StringVar(root)
 string_variable.set("")
 LB = tk.Label(root, textvariable = string_variable)
