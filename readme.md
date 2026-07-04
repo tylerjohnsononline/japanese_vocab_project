@@ -1,5 +1,4 @@
-images from outdated variant
-
+![https://github.com/tylerjohnsononline/japanese_vocab_project/blob/main/images/click%20new%20word%20and%20example.png]
 
 
 ### Why a vocabulary project
